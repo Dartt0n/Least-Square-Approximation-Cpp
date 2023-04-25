@@ -112,10 +112,12 @@ x~:
 \end{lstlisting}
 Plot data using \textit{gnuplot}:
 \begin{lstlisting}
-> set style line 2 linecolor rgb '#dd181f' linetype 1 linewidth 2
-> plot "plot.dat" with lines linestyle 1, [x=0:99] 4.0004 * x**2 -8.0179 * x + 3.1682 with lines linestyle 2
+> set style line 1 linecolor rgb '#dd181f' linetype 1 linewidth 2
+> plot "plot.dat" with points pointtype 6, [x=0:99] 4.0004 * x**2 -8.0179 * x + 3.1682 linestyle 1
 \end{lstlisting}
 We get following picture: \\
 \graphicspath{ {./} }
 \includegraphics[scale=0.6]{plot.png}
+\section*{Appendix}
+Source code, "plot.dat" file and other materials could be found here: \href{https://github.com/Dartt0n/Least-Square-Approximation-Cpp}{Github}
 \end{document}

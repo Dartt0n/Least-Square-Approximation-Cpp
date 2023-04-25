@@ -1,0 +1,12 @@
+/.idea
+/.vscode
+
+**/*.aux
+**/*.fdb_latexmk
+**/*.fls
+**/*.log
+**/*.out
+**/*.gz
+
+/build
+/cmake-build-debug

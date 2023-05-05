@@ -49,6 +49,13 @@ gnuplot> set ylabel "predator population size"
 gnuplot> plot "kv.dat" with points pt 7 ps 0.5 title "predator"
 \end{lstlisting}
 \includegraphics[scale=0.6]{kv.png}
+\subsection*{v(k)}
+\begin{lstlisting}
+gnuplot> set xlabel "predator population size"
+gnuplot> set ylabel "prey population size"
+gnuplot> plot "vk.dat" with points pt 7 ps 0.5 title "prey"
+\end{lstlisting}
+\includegraphics[scale=0.6]{vk.png}
 \subsection*{Code}
 \begin{lstlisting}[language=c++]
 int main() {
